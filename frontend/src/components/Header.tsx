@@ -4,7 +4,7 @@ import { Box, Heading, Flex } from "@chakra-ui/react";
 
 const Header = () => {
   return (
-    <Box backgroundColor={"green.600"} padding={1} borderBottomColor={"white"}>
+    <Box backgroundColor={"green.600"} padding={1} borderBottomColor={"white"} marginBottom={2}>
       <Flex justifyContent={"space-between"} alignItems={"center"}>
         {/* Empty Box to help center the Heading */}
         <Box flex="1">
